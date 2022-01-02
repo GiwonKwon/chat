@@ -1,5 +1,8 @@
 package com.study.chat;
 
+import java.util.Collections;
+import java.util.List;
+
 public class UserImpl implements User {
     private final String id;
 

@@ -4,9 +4,9 @@ import org.junit.Test;
 
 import static org.junit.Assert.*;
 
-public class RoomTest {
+public class RoomImplTest {
     @Test
-    public void test(){
+    public void joinTest(){
         Room room = new RoomImpl();
         User user = new UserImpl();
 
@@ -14,7 +14,7 @@ public class RoomTest {
     }
 
     @Test
-    public void test2(){
+    public void hasUserTest(){
         Room room = new RoomImpl();
         User user = new UserImpl();
 
@@ -24,13 +24,13 @@ public class RoomTest {
     }
 
     @Test
-    public void test3(){
+    public void hasUserTest2(){
         Room room = new RoomImpl();
         assertFalse(room.hasUser("non-existed"));
     }
 
     @Test
-    public void test4(){
+    public void hasUserTest3(){
         Room room = new RoomImpl();
         User user = new UserImpl();
 
