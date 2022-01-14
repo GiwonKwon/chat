@@ -6,7 +6,14 @@
 
   <groupId>com.study</groupId>
   <artifactId>chat</artifactId>
+  <packaging>pom</packaging>
   <version>1.0-SNAPSHOT</version>
+
+  <modules>
+    <module>common</module>
+    <module>client</module>
+    <module>server</module>
+  </modules>
 
   <name>chat</name>
   <!-- FIXME change it to the project's website -->
